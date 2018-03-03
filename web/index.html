@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>实战</title>
+	<link rel="stylesheet" type="text/css" href="css/导航.css">
+	<link rel="stylesheet" type="text/css" href="css/主页.css">
+	<link rel="stylesheet" href="css/ft-carousel.css" />
+</head>
+<body>
+	<div id="container">
+	<div id="header">
+	<img src="img/logo.png" style="width: 100px;height: 60px;float: left;margin-top: 10px;">
+		<ul id="nav" style="float: left;margin-top: 20px;margin-left: 53PX;">
+			<li><a href="#">导航1</a></li>
+			<li><a href="#">导航2</a></li>
+			<li><a href="#">导航3</a></li>
+			<li><a href="#">导航4</a></li>
+			<li><a href="#">导航5</a></li>
+			<li><a href="#">导航6</a></li>
+			<li><a href="#">导航7</a></li>
+			<li><a href="#">导航8</a></li>
+		</ul>
+	</div>
+	<div class="example" style="width: 1000px;height: 520px;font-size: 40px;text-align: center;margin: 20px auto;background-color: #464576;">
+		<div class="ft-carousel" id="carousel_1">
+			<ul class="carousel-inner">
+				<li class="carousel-item"><img src="img/a1.jpg" /></li>
+				<li class="carousel-item"><img src="img/a2.jpg" /></li>
+				<li class="carousel-item"><img src="img/a3.jpg" /></li>
+				<li class="carousel-item"><img src="img/a4.jpg" /></li>
+				<li class="carousel-item"><img src="img/a5.jpg" /></li>
+				<li class="carousel-item"><img src="img/a6.jpg" /></li>
+			</ul>
+		</div>
+	</div>
+	<!-- <img src="./zhutu.jpg" alt="" id="banner" style="width: 1000px;"> -->
+	<div id="main">
+		<div id="lside">
+			<div class="subtitle">
+					<img src="img/0.jpg" alt="" />
+					<h1>核心业务</h1>
+					<a href="#">More&gt&gt</a>
+			</div>
+			<div class="four">
+				<h2>电子商务类网站建设</h2>
+				<img src="img/logo.jpg" alt="" />
+				<ul>
+					<li><a href="#">方便的订单管理1</a></li>
+					<li><a href="#">方便的订单管理2</a></li>
+					<li><a href="#">方便的订单管理3</a></li>
+					<li><a href="#">方便的订单管理4</a></li>
+					<li><a href="#">方便的订单管理5</a></li>
+				</ul>
+			</div>
+			<div class="four">
+			<h2>电子商务类网站建设</h2>
+				<img src="img/logo.jpg" alt="" />
+				<ul>
+					<li><a href="#">方便的订单管理1</a></li>
+					<li><a href="#">方便的订单管理2</a></li>
+					<li><a href="#">方便的订单管理3</a></li>
+					<li><a href="#">方便的订单管理4</a></li>
+					<li><a href="#">方便的订单管理5</a></li>
+				</ul>
+			</div>
+			<div class="four">
+			<h2>电子商务类网站建设</h2>
+				<img src="img/logo.jpg" alt="" />
+				<ul>
+					<li><a href="#">方便的订单管理1</a></li>
+					<li><a href="#">方便的订单管理2</a></li>
+					<li><a href="#">方便的订单管理3</a></li>
+					<li><a href="#">方便的订单管理4</a></li>
+					<li><a href="#">方便的订单管理5</a></li>
+				</ul>
+			</div>
+			<div class="four">
+			<h2>电子商务类网站建设</h2>
+				<img src="img/logo.jpg" alt="" />
+				<ul>
+					<li><a href="#">方便的订单管理1</a></li>
+					<li><a href="#">方便的订单管理2</a></li>
+					<li><a href="#">方便的订单管理3</a></li>
+					<li><a href="#">方便的订单管理4</a></li>
+					<li><a href="#">方便的订单管理5</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="rside">
+			<div class="subtitle">
+					<img src="img/0.jpg" alt="" />
+					<h1>文章观点</h1>
+					<a href="#">More&gt&gt</a>
+			</div>
+			<ul id="art">
+						<li><a href="#">这是一篇好文章1</a></li>
+						<li><a href="#">这是一篇好文章2</a></li>
+						<li><a href="#">这是一篇好文章3</a></li>
+						<li><a href="#">这是一篇好文章4</a></li>
+						<li><a href="#">这是一篇好文章5</a></li>
+					</ul>	
+					<div class="subtitle">
+					<img src="img/0.jpg" alt="" />
+					<h1>联系我们</h1>
+					<a href="#">More&gt&gt</a>
+
+			</div>
+			<div id="contact"></div>	
+		</div>
+		<div class="clr"></div>
+	</div>
+	<div id="footer" style="text-align: center;">
+	<ul>
+		<li><a href="">联系我们1</a></li>
+		<li><a href="">联系我们2</a></li>
+		<li><a href="">联系我们3</a></li>
+		<li><a href="">联系我们4</a></li>
+		<li><a href="">联系我们5</a></li>
+		<li><a href="">联系我们6</a></li>
+		<li><a href="">联系我们7</a></li>
+	</ul>
+			<address>&copy:杭州xx有限公司 版权所有。WWW.xxx.cn.com 浙ICP备案号1234xx7号</address>
+	</div>
+	</div>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/ft-carousel.min.js"></script>
+<script type="text/javascript">
+	$("#carousel_1").FtCarousel();
+
+	$("#carousel_2").FtCarousel({
+		index: 1,
+		auto: false
+	});
+
+	$("#carousel_3").FtCarousel({
+		index: 0,
+		auto: true,
+		time: 3000,
+		indicators: false,
+		buttons: true
+	});
+</script>
+</html>

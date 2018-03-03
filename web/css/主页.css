@@ -1,0 +1,173 @@
+#container{
+			/*background-color: orange;*/
+			width:1000px;
+			height: 100px;
+			margin:0 auto;
+		}
+		#header{
+			/*background: lightgray;*/
+			height: 80px;
+		}
+		.clr{
+			clear: both;
+			width: 0px;
+			height: 0px;
+		}
+		#nav li{
+			background: url(../img/导航条.jpg);
+			width: 90px;margin-right: 1px;
+			float: left;
+		}
+		#nav a{		
+			font-size: 18px;
+			line-height: 37px;
+			/*font-family: '微软雅黑';*/
+			font:20px 37px '微软雅黑','黑体'，sans-serif;
+			color: #3636;
+			display: block;
+			width: 90px;
+			height:37px;
+			text-align: center;
+		}
+		#nav a:hover{
+				color: white;
+				background: url(../img/nav.jpg);}
+		#banner{
+			margin: 10px 0;
+		}
+		#main{
+
+		}
+		#lside{
+			height: 480px;
+			width: 694px;
+			border: 1px solid #eee;
+			float: left;
+			border-top: none;
+		}
+		.subtitle{
+			height: 37px;
+			background:#eee url(../img/导航.jpg);
+
+		}
+		.subtitle img{
+			margin:5px 0 0 10px;
+			float: left;
+		}
+		.subtitle h1{
+			line-height: 29px;
+			float: left;
+			margin-left: 10px;
+			/*font-size: 16px;*/
+			font:16px/37px '微软雅黑'，SimHei，sans-serif;
+		}
+		.subtitle a{
+			float: right;
+			line-height: 37px;
+			display: block;
+			color: #888;
+			font-size: 12px;
+			font-family: '宋体'；
+			
+			color: gray;
+		}
+		.four{
+			width: 326px;
+			height: 200px;
+			background-color: #eee;
+			margin:10px; 
+			float: left;
+			-display: inline;
+		}
+		.four img{
+			margin-left: 10px;
+			padding: 6px;
+			float: left;
+			background-color: white;
+		}
+
+		.four li{
+			padding-left: 20px;
+			background: url(../img/点.jpg) no-repeat;
+			height: 30px;
+		}
+		.four a{
+			font-size: 12px;
+			color: #888;
+			
+		}
+
+		.four a:visited{
+			color: #808080;
+		}
+		.four a:hover{
+			color: #ff832c;
+		}
+		.four ul{
+			float: left;
+			margin-left: 10px;
+		}
+		.four h2{
+			color: #A0A0A0;
+			margin:6px 0 6px 10px;
+			font-size: 16px;
+			font-family: '微软雅黑'，SimHei，sans-serif;
+		}
+		#rside{
+			width: 294px;
+			height: 490px;
+		
+			float: right;
+		}
+		#art{
+			background: #eee;
+			margin-top: 1px;
+			padding-top: 10px;
+		}
+		#art li{
+			
+		}
+		#art a{
+			line-height: 29px;
+			color: #888;
+			padding: 0 0 0 30px;
+			background: url(../img/三角形.jpg) no-repeat;
+			height: 29px;
+			display: block;
+			
+		}
+		#art a:hover{
+			color: #ff832c;
+			background: url(../img/导航变色.jpg);
+		}
+		#contact{
+			height: 249px;
+			background: #eee;
+			margin-top: 1px;
+		}
+		#footer{
+			/*border: 1px solid red;*/
+			background-color: #eee;
+			height: 120px;
+			float: left;
+			border-radius: 15px;
+			margin-top: 5px;
+		}
+		#footer li{
+			float: left;
+			margin-right: 10px;
+			margin-top: 15px; 
+			padding-left: 50px;
+		}
+		#footer ul{
+			width: 1000px;
+			height: 40px;
+			background:#eee;
+		}
+		#footer address{
+			font-family: '微软雅黑',sans-serif;
+			
+			font-size: 12px;
+			margin-top: 10px;
+
+		}
